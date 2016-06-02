@@ -270,7 +270,7 @@ public class SKPhotoBrowser: UIViewController, UIScrollViewDelegate {
         
         // toolbar
         toolBar = UIToolbar(frame: frameForToolbarAtOrientation())
-        toolBar.backgroundColor = .clearColor()
+        toolBar.backgroundColor = UIColor.blueColor()
         toolBar.clipsToBounds = true
         toolBar.translucent = true
         toolBar.setBackgroundImage(UIImage(), forToolbarPosition: .Any, barMetrics: .Default)
